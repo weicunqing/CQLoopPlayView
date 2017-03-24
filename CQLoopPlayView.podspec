@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
  
   s.name         = "CQLoopPlayView"
-  s.version      = “1.0.1”
+  s.version      = “1.0.0”
   s.summary      = "iOS 简易轮播图"
 
   s.homepage     = "https://github.com/weicunqing/CQLoopPlayView"
