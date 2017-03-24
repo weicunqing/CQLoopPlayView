@@ -15,7 +15,7 @@
 // textLabel和detailTextLabel的高
 #define LABEL_HEIGHT 30.0
 // textLabel宽度占contentView的宽度的比。
-#define LABEL_WIDTH_RATIO 0.75
+#define LABEL_WIDTH_RATIO 0.7
 
 @interface CQLoopPlayCell()
 

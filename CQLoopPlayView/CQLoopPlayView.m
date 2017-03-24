@@ -79,7 +79,7 @@ static NSInteger const sectionCount = 3;
     
     // timer
     _autoPlay = YES;
-    _timeInterval = 5.0;
+    _timeInterval = 2.0;
     _scrollDirection = UICollectionViewScrollDirectionHorizontal;
     // subview
     [self addSubview:self.collectionView];
@@ -125,6 +125,9 @@ static NSInteger const sectionCount = 3;
     CQLoopPlayCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     
     NSString *indexImage = self.imageArray[indexPath.item];
+    if (indexImage == nil) {
+        cell.imageView.image = self.placeholderImage;
+    }
     
     if ([indexImage isKindOfClass:[UIImage class]]) {
         cell.imageView.image = (UIImage *)indexImage;

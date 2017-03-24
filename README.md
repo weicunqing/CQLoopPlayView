@@ -6,6 +6,8 @@ email:  weicunqing_iOS@163.com
 ### 支持cocoapods
 pod 'CQLoopPlayView'
 
+### 加载图片和图片缓存管理使用 SDWebImage
+
 ##  如果顶部出现一条空白,请尝试设置controller的automaticallyAdjustsScrollViewInsets属性为NO
 
 ##  简单使用方法
